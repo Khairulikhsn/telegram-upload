@@ -135,7 +135,7 @@ html_theme = os.environ.get('HTML_THEME', 'alabaster')
 html_theme_options = {
     'logo': 'logo.png',
     'description': 'Upload and download files to Telegram up to 2GiB',
-    'github_user': 'Nekmo',
+    'github_user': 'Khairulikhsn',
     'github_repo': 'telegram-upload',
     'github_type': 'star',
     'github_banner': True,
