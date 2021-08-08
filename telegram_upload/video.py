@@ -60,7 +60,8 @@ def get_video_thumb(file, output=None, size=200):
         '-ss', str(int(duration / 2)),
         '-i', file,
         '-filter:v',
-        'scale={}:{}'.format(width, height),
+        # 'scale={}:{}'.format(width, height),
+        'scale=1920:1080',
         '-vframes:v', '1',
         output,
     ])
